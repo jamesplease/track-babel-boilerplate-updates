@@ -1,8 +1,12 @@
 {
+  "parser": "babel-eslint",
   "parserOptions": {
     "ecmaVersion": 6,
     "sourceType": "module"
   },
+  "extends": [
+    "./node_modules/pleaserc/.eslintrc"
+  ],
   "rules": {},
   "env": {
     "browser": true,
